@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css */
+/* index.css */
+/* html[dir="rtl"] {
+    text-align: right;
+  }
+  
+  html[dir="rtl"] table {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] th, html[dir="rtl"] td {
+    text-align: right;
+  }
+  
+  html[dir="rtl"] .form-radio {
+    margin-left: auto;
+    margin-right: 0;
+  }
+   */
+
+
+   /* index.css */
+html[dir="rtl"] {
+    text-align: right;
+  }
+  
+  html[dir="rtl"] table {
+    direction: rtl;
+    text-align: right;
+
+  }
+  
+  html[dir="rtl"] th, html[dir="rtl"] td {
+    text-align: right;
+    padding: 12px;
+    vertical-align: middle; /*Ensure vertical alignment*/
+  }
+  
+  html[dir="rtl"] .form-radio {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  
